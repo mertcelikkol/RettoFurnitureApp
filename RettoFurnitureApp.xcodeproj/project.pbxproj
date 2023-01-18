@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA5C202B2978893B001087B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C202A2978893B001087B1 /* AppDelegate.swift */; };
+		FA5C202D2978893B001087B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C202C2978893B001087B1 /* SceneDelegate.swift */; };
+		FA5C202F2978893B001087B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C202E2978893B001087B1 /* ViewController.swift */; };
+		FA5C20322978893B001087B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5C20302978893B001087B1 /* Main.storyboard */; };
+		FA5C20342978893C001087B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5C20332978893C001087B1 /* Assets.xcassets */; };
+		FA5C20372978893C001087B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5C20352978893C001087B1 /* LaunchScreen.storyboard */; };
+		FA5C20422978893C001087B1 /* RettoFurnitureAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C20412978893C001087B1 /* RettoFurnitureAppTests.swift */; };
+		FA5C204C2978893C001087B1 /* RettoFurnitureAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C204B2978893C001087B1 /* RettoFurnitureAppUITests.swift */; };
+		FA5C204E2978893C001087B1 /* RettoFurnitureAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5C204D2978893C001087B1 /* RettoFurnitureAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA5C203E2978893C001087B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5C201F2978893B001087B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5C20262978893B001087B1;
+			remoteInfo = RettoFurnitureApp;
+		};
+		FA5C20482978893C001087B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA5C201F2978893B001087B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5C20262978893B001087B1;
+			remoteInfo = RettoFurnitureApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA5C20272978893B001087B1 /* RettoFurnitureApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RettoFurnitureApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5C202A2978893B001087B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA5C202C2978893B001087B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FA5C202E2978893B001087B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA5C20312978893B001087B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA5C20332978893C001087B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA5C20362978893C001087B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA5C20382978893C001087B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA5C203D2978893C001087B1 /* RettoFurnitureAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RettoFurnitureAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5C20412978893C001087B1 /* RettoFurnitureAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RettoFurnitureAppTests.swift; sourceTree = "<group>"; };
+		FA5C20472978893C001087B1 /* RettoFurnitureAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RettoFurnitureAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5C204B2978893C001087B1 /* RettoFurnitureAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RettoFurnitureAppUITests.swift; sourceTree = "<group>"; };
+		FA5C204D2978893C001087B1 /* RettoFurnitureAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RettoFurnitureAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA5C20242978893B001087B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5C203A2978893C001087B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5C20442978893C001087B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA5C201E2978893B001087B1 = {
+			isa = PBXGroup;
+			children = (
+				FA5C20292978893B001087B1 /* RettoFurnitureApp */,
+				FA5C20402978893C001087B1 /* RettoFurnitureAppTests */,
+				FA5C204A2978893C001087B1 /* RettoFurnitureAppUITests */,
+				FA5C20282978893B001087B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA5C20282978893B001087B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA5C20272978893B001087B1 /* RettoFurnitureApp.app */,
+				FA5C203D2978893C001087B1 /* RettoFurnitureAppTests.xctest */,
+				FA5C20472978893C001087B1 /* RettoFurnitureAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA5C20292978893B001087B1 /* RettoFurnitureApp */ = {
+			isa = PBXGroup;
+			children = (
+				FA5C202A2978893B001087B1 /* AppDelegate.swift */,
+				FA5C202C2978893B001087B1 /* SceneDelegate.swift */,
+				FA5C202E2978893B001087B1 /* ViewController.swift */,
+				FA5C20302978893B001087B1 /* Main.storyboard */,
+				FA5C20332978893C001087B1 /* Assets.xcassets */,
+				FA5C20352978893C001087B1 /* LaunchScreen.storyboard */,
+				FA5C20382978893C001087B1 /* Info.plist */,
+			);
+			path = RettoFurnitureApp;
+			sourceTree = "<group>";
+		};
+		FA5C20402978893C001087B1 /* RettoFurnitureAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5C20412978893C001087B1 /* RettoFurnitureAppTests.swift */,
+			);
+			path = RettoFurnitureAppTests;
+			sourceTree = "<group>";
+		};
+		FA5C204A2978893C001087B1 /* RettoFurnitureAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA5C204B2978893C001087B1 /* RettoFurnitureAppUITests.swift */,
+				FA5C204D2978893C001087B1 /* RettoFurnitureAppUITestsLaunchTests.swift */,
+			);
+			path = RettoFurnitureAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA5C20262978893B001087B1 /* RettoFurnitureApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5C20512978893C001087B1 /* Build configuration list for PBXNativeTarget "RettoFurnitureApp" */;
+			buildPhases = (
+				FA5C20232978893B001087B1 /* Sources */,
+				FA5C20242978893B001087B1 /* Frameworks */,
+				FA5C20252978893B001087B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RettoFurnitureApp;
+			productName = RettoFurnitureApp;
+			productReference = FA5C20272978893B001087B1 /* RettoFurnitureApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA5C203C2978893C001087B1 /* RettoFurnitureAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5C20542978893C001087B1 /* Build configuration list for PBXNativeTarget "RettoFurnitureAppTests" */;
+			buildPhases = (
+				FA5C20392978893C001087B1 /* Sources */,
+				FA5C203A2978893C001087B1 /* Frameworks */,
+				FA5C203B2978893C001087B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5C203F2978893C001087B1 /* PBXTargetDependency */,
+			);
+			name = RettoFurnitureAppTests;
+			productName = RettoFurnitureAppTests;
+			productReference = FA5C203D2978893C001087B1 /* RettoFurnitureAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA5C20462978893C001087B1 /* RettoFurnitureAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA5C20572978893C001087B1 /* Build configuration list for PBXNativeTarget "RettoFurnitureAppUITests" */;
+			buildPhases = (
+				FA5C20432978893C001087B1 /* Sources */,
+				FA5C20442978893C001087B1 /* Frameworks */,
+				FA5C20452978893C001087B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA5C20492978893C001087B1 /* PBXTargetDependency */,
+			);
+			name = RettoFurnitureAppUITests;
+			productName = RettoFurnitureAppUITests;
+			productReference = FA5C20472978893C001087B1 /* RettoFurnitureAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA5C201F2978893B001087B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FA5C20262978893B001087B1 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					FA5C203C2978893C001087B1 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FA5C20262978893B001087B1;
+					};
+					FA5C20462978893C001087B1 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FA5C20262978893B001087B1;
+					};
+				};
+			};
+			buildConfigurationList = FA5C20222978893B001087B1 /* Build configuration list for PBXProject "RettoFurnitureApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA5C201E2978893B001087B1;
+			productRefGroup = FA5C20282978893B001087B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA5C20262978893B001087B1 /* RettoFurnitureApp */,
+				FA5C203C2978893C001087B1 /* RettoFurnitureAppTests */,
+				FA5C20462978893C001087B1 /* RettoFurnitureAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA5C20252978893B001087B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5C20372978893C001087B1 /* LaunchScreen.storyboard in Resources */,
+				FA5C20342978893C001087B1 /* Assets.xcassets in Resources */,
+				FA5C20322978893B001087B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5C203B2978893C001087B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5C20452978893C001087B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA5C20232978893B001087B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5C202F2978893B001087B1 /* ViewController.swift in Sources */,
+				FA5C202B2978893B001087B1 /* AppDelegate.swift in Sources */,
+				FA5C202D2978893B001087B1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5C20392978893C001087B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5C20422978893C001087B1 /* RettoFurnitureAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5C20432978893C001087B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA5C204E2978893C001087B1 /* RettoFurnitureAppUITestsLaunchTests.swift in Sources */,
+				FA5C204C2978893C001087B1 /* RettoFurnitureAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA5C203F2978893C001087B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5C20262978893B001087B1 /* RettoFurnitureApp */;
+			targetProxy = FA5C203E2978893C001087B1 /* PBXContainerItemProxy */;
+		};
+		FA5C20492978893C001087B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA5C20262978893B001087B1 /* RettoFurnitureApp */;
+			targetProxy = FA5C20482978893C001087B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA5C20302978893B001087B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5C20312978893B001087B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA5C20352978893C001087B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA5C20362978893C001087B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA5C204F2978893C001087B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA5C20502978893C001087B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA5C20522978893C001087B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X66P5M2BVY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RettoFurnitureApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertcelikkol.RettoFurnitureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA5C20532978893C001087B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X66P5M2BVY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RettoFurnitureApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertcelikkol.RettoFurnitureApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA5C20552978893C001087B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X66P5M2BVY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertcelikkol.RettoFurnitureAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RettoFurnitureApp.app/RettoFurnitureApp";
+			};
+			name = Debug;
+		};
+		FA5C20562978893C001087B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X66P5M2BVY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertcelikkol.RettoFurnitureAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RettoFurnitureApp.app/RettoFurnitureApp";
+			};
+			name = Release;
+		};
+		FA5C20582978893C001087B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X66P5M2BVY;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertcelikkol.RettoFurnitureAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RettoFurnitureApp;
+			};
+			name = Debug;
+		};
+		FA5C20592978893C001087B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X66P5M2BVY;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mertcelikkol.RettoFurnitureAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RettoFurnitureApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA5C20222978893B001087B1 /* Build configuration list for PBXProject "RettoFurnitureApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5C204F2978893C001087B1 /* Debug */,
+				FA5C20502978893C001087B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5C20512978893C001087B1 /* Build configuration list for PBXNativeTarget "RettoFurnitureApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5C20522978893C001087B1 /* Debug */,
+				FA5C20532978893C001087B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5C20542978893C001087B1 /* Build configuration list for PBXNativeTarget "RettoFurnitureAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5C20552978893C001087B1 /* Debug */,
+				FA5C20562978893C001087B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA5C20572978893C001087B1 /* Build configuration list for PBXNativeTarget "RettoFurnitureAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA5C20582978893C001087B1 /* Debug */,
+				FA5C20592978893C001087B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA5C201F2978893B001087B1 /* Project object */;
+}
